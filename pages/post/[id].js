@@ -5,6 +5,6 @@ export default function Post() {
  const router = useRouter();
   console.log(router);
   return<MainLayout>
-  <h1>Post {router.query.id}</h1>
+  <h1>Post current {router.query.id}</h1>
   </MainLayout>
 }

@@ -17,9 +17,7 @@ export function MainLayout({children, title} ) {
 		{children}
 	  </main>
 	  <style jsx global>{`
-        body {
-          background: #d7ffc7;
-        }
+   
 
         nav {
           position: fixed;
